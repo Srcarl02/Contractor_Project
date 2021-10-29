@@ -1,5 +1,27 @@
-ul{ background-color: red;
-    display: inline-flex;
-    flex-direction: row;
+.Navbar { background-color: rgb(148, 6, 6);
+    display: flexbox ;
+    list-style-type:none ;
+
    
 }
+
+
+
+.navigation { background-color: blue; width: 100%;
+
+
+}
+
+
+.Navbar a { text-decoration: none ; color: #ffffff ; 
+
+}
+
+
+
+body {
+    
+}
+
+
+
