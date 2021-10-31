@@ -1,4 +1,54 @@
-.Navbar { background-color: rgb(148, 6, 6);
+body {
+    background-color: rgb(148, 6, 6, 0.9);
+  }
+
+
+
+  h1 {
+    background-color: rgb(0, 0, 255, 0.7);
+
+  }
+  
+  div {
+    background-color: rgb(0, 0, 255, 0.7);
+     
+
+  }
+  
+  p {
+    background-color:   rgb(0, 0, 255, 0.7);
+     
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Navbar { background-color: rgb(148, 6, 6, 0.8);
     display: flexbox ;
     list-style-type:none ;
 
@@ -7,7 +57,7 @@
 
 
 
-.navigation { background-color: blue; width: 100%;
+.navigation { background-color: rgb(0, 0, 255, 0.7); width: 100%;
 
 
 }
@@ -35,7 +85,7 @@
         margin: 0%;
         padding: 0%;
         width: 100%;
-        background-color: blue;
+        background-color: rgb(0, 0, 255, 0.7); 
 
 
     }
@@ -52,20 +102,134 @@
 
     li a:hover{
 
-        background-color: rgb(148, 6, 6);
+        background-color: rgb(148, 6, 6, 0.8);
             color: white;
 
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) { ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-color: rgb(0, 0, 255, 0.7);
+
+
+}
+
+li a { 
+
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+
+li a:hover{
+
+    background-color: rgb(148, 6, 0.8);
+        color: white;
+
+}
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+
+    ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        background-color: rgb(0, 0, 255, 0.7);
+
+
+    }
+
+    li a { 
+
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+
+    }
+
+
+    li a:hover{
+
+        background-color: rgb(148, 6, 0.8);
+            color: white;
+
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+
+    ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        background-color: rgb(0, 0, 255, 0.7);
+
+
+    }
+
+    li a { 
+
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+
+    }
+
+
+    li a:hover{
+
+        background-color: rgb(148, 6, 0.8);
+            color: white;
+
+    }
+
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+
+    ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        background-color: rgb(0, 0, 255, 0.8);
+
+
+    }
+
+    li a { 
+
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+
+    }
+
+
+    li a:hover{
+
+        background-color: rgb(148, 6, 0.8);
+            color: white;
+
+    }
+
+}
