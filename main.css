@@ -1,14 +1,51 @@
 body {
     background-color: rgb(148, 6, 6, 0.9);
-  }
-
-
-
-  h1 {
-    background-color: #ffffff
-  }
+   
   
-  div {
+  }
+
+
+
+
+    p,h1, div, title, h2 {
+    background-color: #ffffff
+
+  
+
+  }
+
+.headers{
+    background-color: blue;
+    text-decoration: underline;
+    text-align: center;
+
+    
+    
+    
+}
+
+
+.statement {
+
+
+    display: flex; justify-content: center;
+
+
+}
+
+
+     p {
+        
+
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: auto;
+    
+  }
+
+  
+  /* div {
     background-color: #ffffff
 
   }
@@ -23,7 +60,12 @@ body {
   title{ background-color:  #ffffff
 
   }
+  
+  h2 {
+    background-color:  #ffffff
 
+      
+  } */
 
 
 
@@ -111,15 +153,50 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) { ul{
+@media only screen and (min-width: 600px) {
+     ul{
     list-style-type: none;
     margin: 0%;
     padding: 0%;
     width: 100%;
     background-color: rgb(0, 0, 255, 0.7);
 
+}
+
+
+
+.headers{
+    background-color: blue;
+    text-decoration: underline;
+    text-align: center;
+
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: auto;
+    
+    
+}
+
+
+.statement {
+
+
+    display: flex; justify-content: center;
+
 
 }
+
+
+     p {
+        
+
+    width: 320px;
+    padding: 5px;
+    border: 6px solid gray;
+    margin: auto;
+    
+  }
 
 li a { 
 
@@ -138,7 +215,51 @@ li a:hover{
 
 }
 
+
+
+.house {
+
+
+    display: block;
+   margin-right: auto;
+   margin-left: auto;
+
 }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -174,64 +295,13 @@ li a:hover{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    ul{
-        list-style-type: none;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-        background-color: rgb(0, 0, 255, 0.7);
-
-
-    }
-
-    li a { 
-
-        display: block;
-        color: white;
-        padding: 8px 16px;
-        text-decoration: none;
-
-    }
-
-
-    li a:hover{
-
-        background-color: rgb(148, 6, 0.8);
-            color: white;
-
-    }
-
+   
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    ul{
-        list-style-type: none;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-        background-color: rgb(0, 0, 255, 0.7);
-
-
-    }
-
-    li a { 
-
-        display: block;
-        color: white;
-        padding: 8px 16px;
-        text-decoration: none;
-
-    }
-
-
-    li a:hover{
-
-        background-color: rgb(148, 6, 0.8);
-            color: white;
-
-    }
+   
 
 }
