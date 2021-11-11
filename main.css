@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: rgb(148, 6, 6, 0.9);
    
   
@@ -14,7 +14,7 @@ body {
 
   }
 
-.headers{
+*/.headers{
     background-color: blue;
     text-decoration: underline;
     text-align: center;
@@ -24,7 +24,7 @@ body {
     
 }
 
-
+/*
 .statement {
 
 
@@ -92,7 +92,7 @@ body {
 
 
 
-.Navbar { background-color: rgb(148, 6, 6, 0.8);
+ .Navbar { background-color: rgb(148, 6, 6, 0.8);
     display: flexbox ;
     list-style-type:none ;
 
@@ -110,7 +110,7 @@ body {
 .Navbar a { text-decoration: none ; color: #ffffff ; 
 
 }
-
+/*
 
  title {
 
@@ -121,7 +121,7 @@ body {
 
  }
 
- /* Extra small devices (phones, 600px and down) */
+*/ 
 @media only screen and (max-width: 600px)  {
 
     ul{
@@ -152,17 +152,6 @@ body {
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-     ul{
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    background-color: rgb(0, 0, 255, 0.7);
-
-}
-
 
 
 .headers{
@@ -178,7 +167,7 @@ body {
     
 }
 
-
+/*
 .statement {
 
 
@@ -198,23 +187,6 @@ body {
     
   }
 
-li a { 
-
-    display: block;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-
-}
-
-
-li a:hover{
-
-    background-color: rgb(148, 6, 0.8);
-        color: white;
-
-}
-
 
 
 .house {
@@ -228,7 +200,22 @@ li a:hover{
 
 
 
-}
+} */
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+/* 
 
 
 
@@ -257,11 +244,7 @@ li a:hover{
 
 
 
-
-
-
-
-/* Medium devices (landscape tablets, 768px and up) */
+ Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {
 
     ul{
@@ -292,16 +275,76 @@ li a:hover{
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+ Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {
 
    
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+ Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {
 
    
 
+ } */
+
+
+
+
+
+
+
+
+
+
+
+ 
+#page { 
+  display: grid;
+  grid-template-areas: 
+    "navigation"
+    "content"
+    "footer";
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer, article, nav, div {
+  padding: 1.2em;
+  background: gold;
+  }
+#navigation {
+  grid-area: header;
+  }
+#content { 
+  grid-area: main;      
+  }
+  #footer {
+  grid-area: footer;
+  }
+  .background-image{
+      background-image: url(images/background\ pic.png);
+      height:500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+
+
+
+    
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  #page { 
+    grid-template-areas: 
+      "navigation"
+      "content"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
 }
